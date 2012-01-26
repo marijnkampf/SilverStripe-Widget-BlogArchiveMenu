@@ -8,6 +8,8 @@
 	Alpha version
 
 	Sponsored by Exadium Web Development http://www.exadium.com
+	
+	Download latest version from: https://github.com/marijnkampf/SilverStripe-Widget-BlogArchiveMenu
 
 ## Introduction
 Based on the Archive Widget it shows blog entries by date with a menu look and feel.
