@@ -106,6 +106,7 @@ class BlogArchiveMenuWidget extends Widget {
 			if (($isMonthDisplay) || (!$isMonthDisplay && !in_array($year, $years))) {
 				$years[] = $year;
 				$current = false;
+				$children = new DataObjectSet(); 
 				
 				$LinkingMode = "link";
 				if (($isMonthDisplay && ($yearParam == $year) && ($monthParam == $month)) || (!$isMonthDisplay && ($yearParam == $year)))  {
@@ -117,7 +118,7 @@ class BlogArchiveMenuWidget extends Widget {
 						$children = DataObject::get('BlogEntry', $filter, "Date DESC");
 					}
 				}
-				
+
 				$results->push(new ArrayData(array(
 					'Date' => $date,
 					'Year' => $year,
