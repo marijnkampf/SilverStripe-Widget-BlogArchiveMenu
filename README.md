@@ -41,7 +41,7 @@ In this case the latest blog entry is in January 2012 and 'Nr of years to show a
 
 ## Requirements
 
-* SilverStripe Trunk
+* SilverStripe 2.4+
 * SilverStripe Blog
 
 ## Instalation and setup
